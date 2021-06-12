@@ -40,7 +40,7 @@ window.config(bg="#013DC4")
 window.geometry("830x600")
 
 #code for adding 2 images
-photo1=PhotoImage(file="C:\\Users\\abhiram\\Downloads\\bmi.png")
+photo1=PhotoImage(file="C:\\Users\\abhiram\\Downloads\\bmi2.png")
 photo2=PhotoImage(file="C:\\Users\\abhiram\\Desktop\\bmi1.png")
 l4=Label(window,image=photo1,bg="#013DC4")
 l5=Label(window,image=photo2,bg="#013DC4",width="850")
