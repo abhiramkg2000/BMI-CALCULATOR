@@ -27,6 +27,7 @@ def message():
     elif bmi>30.00:
         msg="Obese"
     return msg
+
 #hover effect on button
 def onbutton(e):
     b1['bg']='green'
@@ -57,8 +58,11 @@ t2=Entry(window,bg="#E2D3F4")
 
 #creating a button
 b1=Button(window,text="Calculate",bg="#013DC4",fg="#E2D3F4",font="calibri 12 bold",command=click)
+
+#binding the buttons
 b1.bind('<Enter>',onbutton)
 b1.bind('<Leave>',leavebutton)
+
 #creating 2 textboxes 
 output1=Text(window,width="15",height="1",bg="#E2D3F4")
 output2=Text(window,width="15",height="1",bg="#E2D3F4")
