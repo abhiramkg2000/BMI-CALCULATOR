@@ -45,7 +45,7 @@ photo2=PhotoImage(file="C:\\Users\\abhiram\\Desktop\\bmi1.png")
 l4=Label(window,image=photo1,bg="#013DC4")
 l5=Label(window,image=photo2,bg="#013DC4",width="850")
 
-#creating 3 labels
+#creating 4 labels
 l1=Label(window,text="Enter height(in cm):",bg="#013DC4",fg="#E2D3F4",font="calibri 12 bold")
 l2=Label(window,text="Enter weight(in kg):",bg="#013DC4",fg="#E2D3F4",font="calibri 12 bold")
 l3=Label(window,text="BMI:",bg="#013DC4",fg="#E2D3F4",font="calibri 12 bold")
