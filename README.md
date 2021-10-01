@@ -1,5 +1,5 @@
 # BMI calculator
-BMI calculator using tkinter Library in Python
+BMI calculator using Tkinter Library in Python
 
 BMI is calculated by the formulae,BMI=(weight)/(height*height)
 
